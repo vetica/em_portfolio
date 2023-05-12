@@ -923,7 +923,7 @@ body {
   background-image: url(../content/img/page-bg-4.jpg);
 }
 .background .background-image.page-bg-5 {
-  background-image: url(../img/background.jpg);
+  /* background-image: url(../img_working/gradient.png); */
 }
 .background .background-image.intro-bg {
   background-image: url(../content/img/intro-bg.jpg);
@@ -961,7 +961,9 @@ body {
   background-color: rgba(202, 221, 254, 0.9);
 }
 .background .background-overlay.page-overlay-5 {
-  background-color: rgba(206, 239, 248, 0.9);
+  /* background-color: rgba(206, 239, 248, 0.9); */
+  background: rgb(249, 122, 122);
+  background: linear-gradient(45deg, rgba(249, 122, 122, 1) 0%, rgba(251, 209, 149, 1) 100%);
 }
 .background .background-overlay.page-overlay-6 {
   background-color: rgba(254, 223, 223, 0.9);
